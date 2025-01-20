@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Inventario</string>
+    <string name="ventas">Ventas</string>
+    <string name="compras">Compras</string>
+    <string name="lista_productos">Lista de productos</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string-array name="opciones_ingreso">
+        <item>Persona</item>
+        <item>Producto</item>
+        <item>Inventario</item>
+    </string-array>
+</resources>

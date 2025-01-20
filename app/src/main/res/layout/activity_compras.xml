@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Código del Producto -->
+        <EditText
+            android:id="@+id/et_codigo_compra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese código"
+            android:layout_margin="16dp" />
+
+        <!-- Botón Buscar -->
+        <Button
+            android:id="@+id/btn_buscar_compra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_codigo_compra"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Buscar" />
+
+        <!-- Información del Producto -->
+        <TextView
+            android:id="@+id/tv_nombre_producto_compra"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Nombre producto: "
+            android:layout_below="@id/btn_buscar_compra"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tv_stock_producto_compra"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Stock: "
+            android:layout_below="@id/tv_nombre_producto_compra"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tv_precio_compra"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Precio de compra: "
+            android:layout_below="@id/tv_stock_producto_compra"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Cantidad a Comprar -->
+        <EditText
+            android:id="@+id/et_cantidad_compra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese cantidad"
+            android:layout_below="@id/tv_precio_compra"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Botones y Total a Pagar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_cantidad_compra"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:id="@+id/tv_total_pagar_compra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total a pagar: $XX"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/btn_calcular_total_compra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Calcular Total A Pagar" />
+
+            <Button
+                android:id="@+id/btn_comprar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comprar" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

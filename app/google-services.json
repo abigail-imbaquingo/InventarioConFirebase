@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "891533669128",
+    "firebase_url": "https://inventario-1a050-default-rtdb.firebaseio.com",
+    "project_id": "inventario-1a050",
+    "storage_bucket": "inventario-1a050.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891533669128:android:7e0d75883b56baf116f2bd",
+        "android_client_info": {
+          "package_name": "com.example.inventariofirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABGYKs2tR77q-XjSzjEl3AB7v9t9AtsOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891533669128:android:ffb415854fb7ae3c16f2bd",
+        "android_client_info": {
+          "package_name": "com.example.inventariofirebase1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABGYKs2tR77q-XjSzjEl3AB7v9t9AtsOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
